@@ -1,0 +1,71 @@
+
+.navbar {
+    background-color: #0459ad;
+    overflow: hidden;
+}
+
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+.navbar a:hover {
+    background-color: #ddd;
+    color: #003366;
+}
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.header {
+    background-image: url('https://v2.cdnpk.net/videvo_files/video/premium/partners0318/thumbnails/BB_085a17da-be0a-498d-bcf1-4035c21881f7_large.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    color: #fff;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+}
+
+
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 20px;
+    height: 300px;
+    text-align: center;
+}
+
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+.footer {
+    background-color: #003366;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+
+@media (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
